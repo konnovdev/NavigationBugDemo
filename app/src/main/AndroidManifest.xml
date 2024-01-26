@@ -19,6 +19,7 @@
             android:name="com.example.navigationbug.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
+            android:launchMode="singleInstance"
             android:theme="@style/Theme.BackgroundServiceDemo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
